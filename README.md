@@ -8,13 +8,25 @@
 
 ```css
 .foo {
-    /* Input example */
+  color: red;
+}
+.bar {
+  color: #FFFFFF;
+}
+.xyz {
+  color: rgba(255, 255, 255, 0.5);
 }
 ```
 
 ```css
 .foo {
-  /* Output example */
+  color: rgb(RANDOM, RANDOM, RANDOM);
+}
+.bar {
+  color: rgb(RANDOM, RANDOM, RANDOM);
+}
+.xyz {
+  color: rgb(RANDOM, RANDOM, RANDOM);
 }
 ```
 
