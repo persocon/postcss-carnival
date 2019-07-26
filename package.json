@@ -1,6 +1,6 @@
 {
   "name": "postcss-carnival",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PostCSS plugin Randomize all colors in your CSS",
   "keywords": [
     "postcss",
