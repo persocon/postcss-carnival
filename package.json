@@ -1,0 +1,45 @@
+{
+  "name": "postcss-carnival",
+  "version": "0.0.0",
+  "description": "PostCSS plugin Randomize all colors in your CSS",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "carnival",
+    "color switch"
+  ],
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "author": "Pedro Costa Neves <pedro.costaneves@adac-camping.de>",
+  "license": "MIT",
+  "repository": "persocon/postcss-carnival",
+  "bugs": {
+    "url": "https://github.com/persocon/postcss-carnival/issues"
+  },
+  "homepage": "https://github.com/persocon/postcss-carnival",
+  "dependencies": {
+    "postcss": "^7.0.6"
+  },
+  "devDependencies": {
+    "@logux/eslint-config": "^27.0.0",
+    "eslint": "^5.10.0",
+    "eslint-config-postcss": "^3.0.7",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-es5": "^1.3.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.6.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
